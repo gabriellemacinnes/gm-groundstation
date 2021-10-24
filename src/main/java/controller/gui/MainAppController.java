@@ -69,7 +69,7 @@ public class MainAppController {
 	 * @param data array of telemetry data
 	 */
 	public void mainAppAddMapData(double[] data) {
-		mapController.addMapData(data);
+		dynamicmapController.addMapData(data);
 	}
 	
 	/**
