@@ -42,15 +42,15 @@ public class MainAppController {
 		graphController.addGraphData(data);
 	}
 	
-	@FXML private VBox map;
-	@FXML private MapController mapController;
+	@FXML private VBox dynamicmap;
+	@FXML private MapController dynamicmapController;
 	
 	/**
 	 * Method to initialize the map
 	 * @throws Exception
 	 */
 	public void mainAppInitializeMap() throws Exception {
-		mapController.initializeMap();
+		dynamicmapController.initializeMap();
 	}
 	
 	@FXML private SplitPane rawData;
